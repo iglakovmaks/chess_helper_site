@@ -195,8 +195,10 @@ h1 {
   display: block;
   margin-top: 14px;
   font-family: "Righteous", "Avenir Next", "Trebuchet MS", sans-serif;
-  font-size: clamp(24px, 2.4vw, 30px);
-  letter-spacing: 0.03em;
+  font-size: clamp(22px, 2.2vw, 28px);
+  letter-spacing: 0.015em;
+  line-height: 1.12;
+  white-space: nowrap;
 }
 
 .download-card small {
@@ -392,20 +394,21 @@ h1 {
   }
 
   .download-card {
-    min-height: 236px;
+    min-height: 176px;
+    padding: 18px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
   .download-card strong {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.15;
     white-space: nowrap;
   }
 
   .download-card small {
-    margin-top: 12px;
+    margin-top: 8px;
   }
 
   .downloads {
